@@ -41,7 +41,7 @@ export const PagePrimeReact = () => {
 					options={cities}
 					optionLabel="name"
 					placeholder="Select a City"
-					className="mt-6 w-[20rem] md:w-14rem text-xs"
+					className="w-[20rem] md:w-14rem text-xs"
 				/>
 			</div>
 			{selectedCity.name && <p className="mt-3">You selected: {selectedCity.name} ({selectedCity.code})</p>}
