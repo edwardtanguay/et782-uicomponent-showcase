@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import "./index.scss";
 import { PageWelcome } from "./pages/PageWelcome.tsx";
-import { PageAbout } from "./pages/PageAbout.tsx";
+import { PageHeadlessUi } from "./pages/PageHeadlessUi.tsx";
 import { Page404 } from "./pages/Page404.tsx";
 import { PagePrimeReact } from "./pages/PagePrimeReact.tsx";
 import { PrimeReactProvider } from "primereact/api";
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
 				),
 			},
 			{
-				path: "about",
-				element: <PageAbout />,
+				path: "headlessui",
+				element: <PageHeadlessUi />,
 			},
 			{
 				path: "/",
